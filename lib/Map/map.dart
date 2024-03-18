@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/src/widgets/framework.dart';
-// ignore: unused_import
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
@@ -19,7 +18,7 @@ class _MapPageState extends State<MapPage> {
   @override
   Widget build(BuildContext context) {
     return WebView(
-        initialUrl: 'https://www.google.com/maps', // Set the URL of the Google Maps web page
+        initialUrl: 'https://www.google.com/maps', 
         javascriptMode: JavascriptMode.unrestricted,
         onWebViewCreated: (WebViewController webViewController) {
           _controller.complete(webViewController);
