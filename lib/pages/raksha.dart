@@ -1,8 +1,8 @@
 import 'package:boxicons/boxicons.dart';
 import 'package:flutter/material.dart';
-import 'package:raksha/Home/home.dart';
-import 'package:raksha/tools/tools.dart';
-import 'package:raksha/utils/colors.dart';
+import 'package:femalert/Home/home.dart';
+import 'package:femalert/tools/tools.dart';
+import 'package:femalert/utils/colors.dart';
 
 import '../Map/map.dart';
 import '../community/community.dart';

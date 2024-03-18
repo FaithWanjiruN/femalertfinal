@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "351546508067",
+    "project_id": "femalert-7b3d2",
+    "storage_bucket": "femalert-7b3d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351546508067:android:c84169b48f186bc27d8296",
+        "android_client_info": {
+          "package_name": "com.company.femalert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA2yWhdMlEsLC6zwr7xmt0vZF6cg72KsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

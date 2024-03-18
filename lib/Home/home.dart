@@ -2,9 +2,9 @@ import 'package:android_path_provider/android_path_provider.dart';
 import 'package:boxicons/boxicons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
-import 'package:raksha/models/sos.dart';
-import 'package:raksha/utils/colors.dart';
-import 'package:raksha/widgets/cards.dart';
+import 'package:femalert/models/sos.dart';
+import 'package:femalert/utils/colors.dart';
+import 'package:femalert/widgets/cards.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

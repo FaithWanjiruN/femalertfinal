@@ -1,4 +1,4 @@
-
+// ignore_for_file: library_private_types_in_public_api
 
 import 'package:flutter/material.dart';
 
@@ -23,7 +23,7 @@ class _CommunityPageState extends State<CommunityPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Community'),
+        title: const Text('Community'),
       ),
       body: Column(
         children: [
@@ -40,7 +40,7 @@ class _CommunityPageState extends State<CommunityPage> {
             ),
           ),
           Padding(
-            padding: EdgeInsets.all(16.0),
+            padding: const EdgeInsets.all(16.0),
             child: Row(
               children: [
                 Expanded(
@@ -49,7 +49,7 @@ class _CommunityPageState extends State<CommunityPage> {
                       // Update post text as user types
                       // You can customize this to your liking (e.g. using a TextEditingController)
                     },
-                    decoration: InputDecoration(
+                    decoration: const InputDecoration(
                       labelText: 'Write something...',
                     ),
                   ),
@@ -60,7 +60,7 @@ class _CommunityPageState extends State<CommunityPage> {
                     String post = ''; // Get the post text from the TextField
                     _addPost(post);
                   },
-                  icon: Icon(Icons.send),
+                  icon: const Icon(Icons.send),
                 ),
               ],
             ),
